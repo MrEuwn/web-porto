@@ -1,112 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prafasta Raditya Mahendra - Portfolio</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <!-- Navigasi -->
-    <div class="nav">
-        <div class="menu-wrap">
-            <a href="#home">
-                <div class="logo">Prafasta Mahendra</div>
-            </a>
-            <div class="menu h-xs">
-                <a href="#home"><div class="menu-item active">Beranda</div></a>
-                <a href="#tentang"><div class="menu-item">Tentang</div></a>
-                <a href="#skill"><div class="menu-item">Skill</div></a>
-                <a href="#proyek"><div class="menu-item">Proyek</div></a>
-                <a href="#footer"><div class="menu-item">Kontak</div></a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Porto</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="mobile-navigasi">
+            <div class="mobile-navigasi-animasipindah"></div>
+            <div class="mobile-navigasi-item active">
+                <i class="bx bxs-home"></i>
+                </a>
+            </div>
+            <div class="mobile-navigasi-item">
+                <a href="#kontener">
+                <i class='bx bxs-food-menu'></i>
+                </a>
+            </div>
+            <div class="mobile-navigasi-item">
+                <a href="#tentang">
+                <i class='bx bxs-wink-smile'></i>
+                </a>
+            </div>
+            <div class="mobile-navigasi-item">
+                <a href="#footer">
+                <i class='bx bxs-comment-detail'></i>
+                </a>
             </div>
         </div>
-    </div>
-
-    <!-- Hero Section -->
-    <section id="home" class="fullheight align-items-center bekgron-gambar bekgron-gambar-fixed" style="background-image: url('assets/bg-hero.jpg');">
-        <div class="container">
-            <div class="row">
-                <div class="col-6 col-xs-12">
-                    <div class="bagiankhusus">
-                        <h1 class="bagiankiri animasi-scroll">Halo! 👋</h1>
-                        <p class="bagiankiri animasi-scroll delay-2">
-                            Saya <b>Prafasta Raditya Mahendra</b>, Mahasiswa <b>Informatika</b> semester 1 di UPN.
-                            Saya tertarik dengan <b>Backend Development</b> khususnya PHP dan JavaScript, 
-                            serta bercita-cita menjadi seorang <b>Full Stack Developer</b>.
-                        </p>
-                        <div class="bagiankiri animasi-scroll delay-4">
-                            <a href="#footer"><button>Hubungi Saya</button></a>
+        <a href="#home" class="back-to-top">
+        <i class="bx bxs-to-top"></i>
+        </a>
+        <div class="nav">
+            <div class="menu-wrap">
+                <a href="#home">
+                    <div class="logo">
+                        Prafasta Mahendra
+                    </div>
+                </a>
+                <div class="menu h-xs">
+                    <a href="#home">
+                        <div class="menu-item active">
+                            Beranda
+                        </div>
+                    </a>
+                    <a href="#kontener">
+                        <div class="menu-item">
+                            Menu 1
+                        </div>
+                    </a>
+                    <a href="#tentang">
+                        <div class="menu-item">
+                            Menu 2
+                        </div>
+                    </a>
+                    <a href="#footer">
+                        <div class="menu-item">
+                            Hubungi Saya
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <section id="home" class="fullheight align-items-center bekgron-gambar bekgron-gambar-fixed">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-xs-12">
+                        <div class="bagiankhusus">
+                            <h1 class="bagiankiri animasi-scroll">
+                                Halo !
+                            </h1>
+                            <p class="bagiankiri animasi-scroll delay-2">
+                                Saya adalah seorang pelajar SMK, saat ini saya sedang menajalani pendidikan di SMKN 2 Surabaya. Saya sudah mempelajari dan memahami beberapa bahasa pemrograman seperti HTML5, CSS, JavaScript dan PHP Dasar. Hingga saat ini saya masih belajar dan memperdalam ilmu bahasa pemrograman.
+                            </p>
+                            <div class="bagiankiri animasi-scroll delay-4">
+                                <button>
+                                Hubungi Saya
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-xs-12">
-                    <img src="assets/foto-profil.png" alt="Foto Prafasta" class="foto-profil bagiankanan animasi-scroll">
+            </div>
+        </section>
+        <section class="align-items-center bekgron-gambar bekgron-gambar-fixed" id="kontener"
+            style="background-image: url(assets/begeh2.jpg);">
+            <div class="container">
+                <div class="kontener">
+                    <h1>
+                        Apa yang membuat <span class="primary-color">Pelayanan Saya</span> Berbeda?
+                    </h1>
+                    <p>Saya bisa membuat website sesuai keiingan anda, Design Website yang Saya ajukan untuk anda sudah menggunakan konsep modern design, Website yang saya buat untuk Anda berteknologi tinggi dan mampu diakses dengan sangat cepat. Saya juga sangat memperhatikan kualitas Website Anda.</p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Tentang -->
-    <section class="tentang align-items-center" id="tentang">
-        <div class="container">
-            <div class="tentang-bagiankhusus bagiankanan animasi-scroll">
-                <h3><span class="primary-color">Tentang</span> Saya</h3>
-                <p>
-                    Saya seorang mahasiswa UPN yang sedang mendalami <b>Web Development</b>. 
-                    Fokus saya saat ini adalah memperkuat pemahaman di <b>Backend</b> (PHP & JavaScript), 
-                    namun saya juga sedang mempelajari dasar-dasar <b>Python</b> dan <b>Java</b>. 
-                    Tujuan saya adalah menjadi <b>Full Stack Developer</b> yang handal dan mampu
-                    mengembangkan aplikasi modern yang bermanfaat.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skill -->
-    <section id="skill" class="align-items-center bekgron-gambar" style="background-color: #f8f9fa;">
-        <div class="container">
-            <h1 class="primary-color">Keahlian Saya</h1>
-            <div class="row">
-                <div class="skill-item">HTML</div>
-                <div class="skill-item">CSS</div>
-                <div class="skill-item">JavaScript (Beginner)</div>
-                <div class="skill-item">PHP</div>
-                <div class="skill-item">Python (Beginner)</div>
-                <div class="skill-item">Java (Beginner)</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Proyek -->
-    <section id="proyek" class="align-items-center bekgron-gambar">
-        <div class="container">
-            <h1 class="primary-color">Proyek Saya</h1>
-            <div class="row">
-                <div class="project-card">
-                    <h3>Website Reservasi Spa</h3>
-                    <p>Website untuk melakukan reservasi jadwal spa secara online. Dibuat untuk tugas akhir SMK.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Website Topup Store</h3>
-                    <p>Website untuk melakukan top-up game dengan integrasi pembayaran. Dibuat sebagai final project SMK.</p>
+        </section>
+        <section class="tentang fullheight align-items-center" id="tentang">
+            <div class="container">
+                <div class="row">
+                    <div class="col-7 h-xs">
+                        <img src="assets/bg2.jpg" alt=""
+                            class="full_lebar bagiankiri animasi-scroll">
+                    </div>
+                    <div class="col-5 col-xs-12 align-items-center">
+                        <div class="tentang-bagiankhusus bagiankanan animasi-scroll">
+                            <h3>
+                                <span class="primary-color">Mari</span> Buat <span class="primary-color">Website</span>
+                                Untuk Bisnis <span class="primary-color"> Anda</span>
+                            </h3>
+                            <p>Hubungi saya untuk berkonsultasi mengenai pembuatan website. Saya siap membantu bisnis/usaha anda menjadi lebih kredibelitas dan profesional. Tunggu apa lagi? Hubungi Saya Segera!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <section class="footer" id="footer">
-        <div class="container">
-            <h1>Hubungi Saya</h1>
-            <p>Email: <a href="mailto:prafasta28@gmail.com">prafasta28@gmail.com</a></p>
-            <p>Instagram: <a href="https://instagram.com/prafastamahendra_" target="_blank">@prafastamahendra_</a></p>
-        </div>
-    </section>
-
-    <script src="js/index.js"></script>
-</body>
+        </section>
+        <section class="footer bekgron-gambar" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-xs-12">
+                        <h1>
+                            Prafasta Mahendra
+                        </h1>
+                        <br>
+                        <p>Mari buat bisnis / usaha Anda selangkah lebih maju. Hubungi Saya Sekarang!</p>
+                        <br>
+                        <p>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <a href="mailto:prafasta28@gmail.com">prafasta28@gmail.com</a></p>
+                        <p>Facebook&nbsp;&nbsp;: Prafasta Mahendra</p>
+                        <p>Instagram    : @prafastamahendra_</p>
+                    </div>
+                    <div class="col-6 col-xs-12">
+                        <h1>
+                            Hubungi Saya
+                        </h1>
+                        <br>
+                        <p>Saya selalu menunggu Anda, Mari mulai sedikit kemajuan bersama Saya untuk bisnis / usaha Anda!</p>
+                        <div class="input-group">
+                            <input type="text" placeholder="Masukan Alamat Email Anda">
+                            <button>
+                            Hubungi
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="js/index.js"></script>
+    </body>
 </html>
